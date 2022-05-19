@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="10dp"
+    app:contentPaddingTop="5dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="first value"
+            android:id="@+id/textId0"
+            android:layout_marginBottom="2dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/textId1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="second value"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/textId2"
+            android:visibility="gone"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:visibility="gone"
+            android:id="@+id/textId3"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My bird data - Main"
+            android:id="@+id/textId4"
+            android:visibility="gone"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My bird data - Sub"
+            android:id="@+id/textId5"
+            android:visibility="gone"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My bird data - Main"
+            android:visibility="gone"
+            android:id="@+id/textId6"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My bird data - Sub"
+            android:id="@+id/textId7"
+            android:visibility="gone"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My bird data - Main"
+            android:id="@+id/textId8"
+            android:visibility="gone"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My bird data - Sub"
+            android:id="@+id/textId9"
+            android:visibility="gone"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My bird data - Main"
+            android:id="@+id/textId10"
+            android:visibility="gone"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My bird data - Sub"
+            android:id="@+id/textId11"
+            android:visibility="gone"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My bird data - Main"
+            android:id="@+id/textId12"
+            android:visibility="gone"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My bird data - Sub"
+            android:id="@+id/textId13"
+            android:visibility="gone"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My bird data - Main"
+            android:id="@+id/textId14"
+            android:visibility="gone"
+            android:textSize="20sp"/>
+
+        <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+            android:id="@+id/img"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>
+
+    
+</androidx.cardview.widget.CardView>
